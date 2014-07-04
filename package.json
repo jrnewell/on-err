@@ -1,0 +1,25 @@
+{
+  "name": "on-err",
+  "version": "0.0.1",
+  "description": "A library to wrap callbacks to avoid unnecessary error propagation checks",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jrnewell/on-err.git"
+  },
+  "keywords": [
+    "err",
+    "error",
+    "callbacks",
+    "wrapper"
+  ],
+  "author": "James Newell <james.newell@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jrnewell/on-err/issues"
+  },
+  "engines": {
+    "node": ">=0.8",
+    "npm": ">=1.2.10"
+  }
+}
