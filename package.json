@@ -1,7 +1,7 @@
 {
   "name": "on-err",
   "version": "0.0.1",
-  "description": "A library to wrap callbacks to avoid unnecessary error propagation checks",
+  "description": "A callback wrapper library that reduces the number of checks needed to propagate errors up the callback chain",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",

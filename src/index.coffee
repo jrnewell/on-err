@@ -1,9 +1,9 @@
-# calls next function if err, otherwise callback.  The next function
+# calls the next function if err, otherwise callback.  The next function
 # is "baked in" with a closure
 onErrCall = (next) ->
   (callback) -> onErr next, callback
 
-# calls next function if err, otherwise callback
+# calls the next function if err, otherwise callback
 onErr = (next, callback) ->
   () ->
     err = arguments[0]
@@ -26,7 +26,7 @@ onCallbackDo = (callback) ->
     return callback err if err
     do callback
 
-# callback that does nothing but log if there is an error
+# callback that does nothing but log an error
 nullCallback = (err) ->
   console.log "#{err}" if err
 
